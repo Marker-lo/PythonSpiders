@@ -17,7 +17,7 @@
 
 **注意**：
 
-*因网页版微博限制，使用爬虫请求其 API 时，需要 cookie 认证，关于 [如何获取 cookie](docs/get_cookie.md)？
+*因网页版微博限制，使用爬虫请求其 API 时，需要 cookie 认证，关于 [如何获取 cookie](weibo-image-spider/docs/get_cookie.md)？
 且 cookie 有效期为一天（第二天零点失效），所以最好不要跨天爬取。*
 
 下载用户昵称为 `nickname` 的最新 2000（可使用 `-n` 修改） 张图片到路径 `dest` 下：
@@ -28,11 +28,11 @@ $ python main.py -u <nickname> -d <dest>
 
 运行截图
 
-![screenshot_1.png](docs/screenshot_1.png)
+![screenshot_1.png](weibo-image-spider/docs/screenshot_1.png)
 
 爬取结果
 
-![screenshot_2.png](docs/screenshot_2.png)
+![screenshot_2.png](weibo-image-spider/docs/screenshot_2.png)
 
 ## 使用帮助
 
