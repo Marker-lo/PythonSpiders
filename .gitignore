@@ -107,5 +107,5 @@ venv.bak/
 .idea
 
 # project for weibo-image-spider
-.weibo-image-spider/images/
-.weibo-image-spider/cookie
+weibo-image-spider/images/
+weibo-image-spider/cookie
